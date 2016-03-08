@@ -37,7 +37,7 @@ public class TrackingService {
 		this.goal = goal;
 	}
 
-	//Get the history first
+	//Get the history second
 	public int getHistoryId() {
 		return historyId;
 	}

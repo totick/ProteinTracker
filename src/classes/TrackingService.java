@@ -1,4 +1,7 @@
+package classes;
+
 import java.util.*;
+import exceptions.InvalidGoalException;
 
 public class TrackingService {
 	
@@ -37,7 +40,7 @@ public class TrackingService {
 		this.goal = goal;
 	}
 
-	//Get the history second
+	//Get the history first
 	public int getHistoryId() {
 		return historyId;
 	}

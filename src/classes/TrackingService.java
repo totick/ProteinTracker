@@ -1,4 +1,7 @@
+package classes;
+
 import java.util.*;
+import exceptions.InvalidGoalException;
 
 public class TrackingService {
 	
